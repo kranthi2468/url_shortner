@@ -1,0 +1,24 @@
+{
+  "name": "url_shortner",
+  "version": "1.0.0",
+  "description": "url shortner poc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kranthi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-redis": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "ioredis": "^4.19.2",
+    "mysql2": "^2.2.5",
+    "nanoid": "^3.1.20",
+    "redis-lru": "^0.6.0",
+    "sequelize": "^4.0.0"
+  }
+}

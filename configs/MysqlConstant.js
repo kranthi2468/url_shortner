@@ -1,0 +1,10 @@
+exports.DBDIALECT = 'mysql';
+exports.DBPOOLMAX = 5;
+exports.DBPOOLMIN = 0;
+exports.DBPOOLACQUIRE = 30000;
+exports.DBPOOLIDLE = 10000;
+exports.DBHOST = 'localhost';
+exports.DBUSERNAME = 'root';
+exports.DBPASSWORD = 'root';
+exports.DBNAME = 'test';
+exports.DBPORT = '3306';
